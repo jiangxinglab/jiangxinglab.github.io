@@ -131,7 +131,9 @@ title : algorithms
 </pre>
 
 ### 2.2 装配线调度
+<!--
 ![装配线调度]({{BASE_PATH}}/img/post/algorithms/Assembly-line-scheduling.png)
+-->
 
 <pre class="prettyprint lang-scm">
 问题描述：
@@ -259,7 +261,9 @@ title : algorithms
 </pre>
 
 ### 4.3 八皇后问题
+<!--
 ![八皇后问题]({{BASE_PATH}}/img/post/algorithms/bahuanghou.png)
+-->
 
 <pre class="prettyprint lang-scm">
     问题描述：
@@ -331,7 +335,9 @@ E1.（求余数） 将n除m所得的余数为r（0<=r<n）。
 E2.（余数为零？） 若余数为0，算法结束，则n即为所求。
 E3. （互换） m<--n;n<--r;并返回步骤E1。
 </pre>
+<!--
 ![最大公约数]({{BASE_PATH}}/img/post/algorithms/zuidagongyueshu.jpg)
+-->
 
 
 ## N、不好分类
@@ -379,7 +385,10 @@ void caculateNext(const char *B,int *next){
     }
 }
 </pre>
+
+<!--
 ![KMP]({{BASE_PATH}}/img/post/algorithms/kmp.bmp)
+-->
 
 ### N.2 Byer-Moore算法
 <pre class="prettyprint lang-scm">
