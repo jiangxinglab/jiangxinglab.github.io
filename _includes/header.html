@@ -20,12 +20,11 @@
     <!-- Custom styles for this template -->
     <link href="{{BASE_PATH}}/css/page/index/masthead-fixed-top.css" rel="stylesheet">
 
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="{{BASE_PATH}}/assets/js/ie-emulation-modes-warning.js"></script>
 
-    <link href="{{BASE_PATH}}/js/common/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+    <link href="{{BASE_PATH}}/js/common/google-code-prettify/solarized-dark.min.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="{{BASE_PATH}}/js/common/google-code-prettify/prettify.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -35,7 +34,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body onload="prettyPrint()">
 
     <!-- Fixed masthead -->
     <nav class="navbar navbar-masthead navbar-default navbar-fixed-top">
