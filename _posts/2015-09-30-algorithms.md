@@ -405,3 +405,18 @@ void caculateNext(const char *B,int *next){
             最好：O(LA/LB)
     空间复杂度：O(N)
 </pre>
+
+
+## TODO
+
+### Binomial Heap
+
+1、[http://typeocaml.com/2015/03/17/binomial-heap/](http://typeocaml.com/2015/03/17/binomial-heap/)
+
+### Perfect Hashes and faster than memcmp
+
+1、[http://blogs.perl.org/users/rurban/2014/08/perfect-hashes-and-faster-than-memcmp.html](http://blogs.perl.org/users/rurban/2014/08/perfect-hashes-and-faster-than-memcmp.html)
+
+### Fast Fibonacci algorithms
+
+1、[http://www.nayuki.io/page/fast-fibonacci-algorithms](http://www.nayuki.io/page/fast-fibonacci-algorithms)
